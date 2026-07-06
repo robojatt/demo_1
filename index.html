@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Village Explorer</title>
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Main Website Template Elements Wrapper (Simulated Background) -->
+    <div class="hero-section">
+        <h1>Welcome to Village Explorer</h1>
+        <p>Experience ultra-luxury curation and pristine heritage eco-tourism.</p>
+    </div>
+
+    <!-- Premium Luxury AI Chat Concierge Panel -->
+    <div class="ai-chat-widget" id="aiChatWidget">
+        <div class="chat-header">
+            <div class="header-title">
+                <div class="status-dot"></div>
+                <h3><i class="fa-solid fa-crown"></i> Elite Concierge</h3>
+            </div>
+            <button id="closeChatBtn" aria-label="Minimize Chat"><i class="fa-solid fa-minus"></i></button>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="message ai-message">
+                Welcome to an exclusive world of travel. I am your specialized Village Explorer digital attache. Please inquire about our signature regional architectures, premium packages, or historical custom experiences.
+            </div>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" id="chatInput" placeholder="Inquire about our heritage destinations...">
+            <button id="sendChatBtn" aria-label="Transmit Inquiry"><i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+    </div>
+    
+    <!-- Floating Luxury Chat Activator -->
+    <button class="chat-toggle-btn" id="chatToggleBtn" aria-label="Open Concierge">
+        <i class="fa-solid fa-signature"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
